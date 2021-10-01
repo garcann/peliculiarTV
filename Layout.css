@@ -1,0 +1,653 @@
+
+  * {
+   
+    padding: 0px
+    margin:0px;
+    box-sizing: border-box;
+
+
+  }
+
+  body {
+
+     background-image: url(fondo_body_global.jpg);
+     background-size: cover;
+
+
+  }
+
+
+
+  .encabezado {
+
+           background-size: cover;
+           background-position: center;
+           position: relative;
+           height: 250%;
+           color: white;
+           animation: encabezado 15s infinite linear alternate;
+           box-shadow: 5px 15px 1px 1px rgba(0, 0, 0, 0.25);
+
+  }
+
+
+ @keyframes encabezado {
+
+          0%, 10%{
+
+                 background-image: url(Fondo_Navegacion.jpg);
+                 background-position: center;
+
+          }
+
+          15%, 20%{
+                   
+              background-image: url(animacion0.png);
+              background-position: center;
+
+          }
+          30%, 40% {
+
+              background-image: url(animacion1.png);
+              background-position: center;
+
+          }
+
+          50%, 60% {
+
+            background-image: url(animacion2.png);
+            background-position: center;
+          }
+
+          70%, 80% {
+
+                  background-image: url(animacion3.png);
+                  background-position: center;
+
+          }
+
+          90%, 100% {
+
+                  background-image: url(animacion4.png);
+                  background-position: center;
+
+          }
+
+ }
+
+
+
+
+  .navegacion  h1{
+              
+             padding: 0px;
+             margin: 0px;
+             text-align: left;
+             padding-top: 190px;
+             font-family: 'Urbanist', sans-serif;
+             font: bold;
+             font-size: 40px;            
+
+  }
+
+  h2 {
+            padding-top: 15px;
+            text-align: center;
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+            font-size: 40px; 
+
+  }
+
+  .main {
+         
+         padding-top: 85px;
+         width: 60%;
+         margin: auto; 
+         display: flex;  
+
+  }
+
+
+    .seccion2 {
+           
+           padding-top: 60px;
+           width: 60%;
+           margin: auto;
+           display: flex;
+           padding-bottom: 150px;
+
+    }
+
+    .main img {
+ 
+        
+                 height: 290px;                 
+                 
+
+
+
+    }
+
+    .seccion2 img {
+ 
+                
+                 height: 290px;
+                 padding-bottom: 0px;
+                
+
+                 
+
+    }
+
+    .terror {
+
+         padding-left: 25px;
+
+
+    }
+
+
+    .h31 {
+
+
+              font-family: 'Urbanist', sans-serif;
+              color: white;
+              padding-left: 25%;
+              font: bold;
+              font-size: 25px;
+              text-decoration: none;
+
+    }
+
+    .h32 {
+
+
+             
+              font-family: 'Urbanist', sans-serif;
+              color: white;
+              padding-left: 27%;
+              font: bold;
+              font-size: 25px;
+              text-decoration: none;
+
+    }
+      
+
+      .h33 {
+
+
+             
+              font-family: 'Urbanist', sans-serif;
+              color: white;
+              padding-left: 35%;
+              font: bold;
+              font-size: 25px;
+              text-decoration: none;
+
+    }
+   
+
+ 
+    .h34 {
+
+
+             
+              font-family: 'Urbanist', sans-serif;
+              color: white;
+              padding-left: 35%;
+              font: bold;
+              font-size: 25px;
+              text-decoration: none;
+
+    }
+
+
+
+    footer {
+
+         font-family: 'Urbanist', sans-serif;
+         background: #000000;
+         opacity: 75%;
+         height: 150px;
+
+
+
+    }
+
+   
+
+    footer nav {
+        
+            margin: auto;
+            width: 20%;
+           
+
+    }
+
+    footer ul {
+
+      list-style: none;
+     
+
+    }
+
+    footer ul li {
+
+         display: inline-block;
+
+    }
+
+   footer ul li a  {
+     padding: 5px 5px;
+    } 
+
+    footer h5 {
+              
+              padding: 0px;
+              margin: 0px;
+              color: white;
+              text-align: center;
+              padding-bottom: 5px;
+    }
+
+     footer h4 {
+
+              padding: 0px;
+              margin: 0px;
+              color: white;
+              text-align: center;
+              padding-top: 15px;
+              
+      
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .cuerpo {
+
+            background-image: url(fondo_body_global.jpg);
+            background-size: cover;
+            position: relative;
+
+    }
+
+   
+
+
+     .titulo {
+
+             padding-top: 50px;
+             padding-left: 185px;
+             font-family: 'Urbanist', sans-serif;
+             color: white;
+     }
+
+      
+      .seccionvideos {
+
+
+
+               width: 60%;
+               display: flex;
+               padding-left: 50px;
+
+
+
+      }
+ 
+    .seccionvideos div {
+
+                  border-style: dashed;
+                  border: 2px solid;
+                      
+
+
+    }
+
+    .seccionvideos video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos div h4 {
+
+                  color: white;
+                  text-align: center;
+                  font-family: 'Urbanist', sans-serif;
+                   
+
+    }
+
+
+      .seccionvideos p {
+
+
+            text-align: justify;
+            font-family: 'Urbanist', sans-serif;
+            padding-left: 5px;
+            padding-right: 10px;
+
+
+      }
+
+
+    .seccionvideos2 {
+               
+               padding-top: 40px;
+               width: 75%;
+               display: flex;
+               padding-left: 50px;
+               padding-bottom: 25px;
+                
+
+    }
+
+
+    .seccionvideos2 div {
+
+                    border-style: dashed;
+                    border: 2px solid;
+
+
+    }
+
+    .seccionvideos2 video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos2 div h4 {
+
+                  color: white;
+                  text-align: center;
+                  font-family: 'Urbanist', sans-serif;
+
+
+    }
+
+    .seccionvideos2 p {
+
+
+            text-align: justify;
+            font-family: 'Urbanist', sans-serif;
+            padding-left: 5px;
+            padding-right: 10px;
+
+
+      }
+
+
+     .seccionvideos3 {
+
+
+               padding-top: 40px;
+               width: 75%;
+               display: flex;
+               padding-left: 25px;
+
+
+
+      }
+ 
+    .seccionvideos3 div {
+
+                 
+                 border: 2px solid white;
+                  border-style: hidden;
+
+
+    }
+
+    .seccionvideos3 video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos3 div h4 {
+
+                  color: white;
+                  text-align: center;
+
+
+    }
+
+     .seccionvideos4 {
+
+
+               padding-top: 40px;
+               width: 75%;
+               display: flex;
+               padding-left: 25px;
+
+
+
+      }
+ 
+    .seccionvideos4 div {
+
+                 
+                 border: 2px solid white;
+                  border-style: hidden;
+
+
+    }
+
+    .seccionvideos4 video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos4 div h4 {
+
+                  color: white;
+                  text-align: center;
+
+
+    }
+
+
+     .seccionvideos5 {
+
+
+               padding-top: 40px;
+               width: 75%;
+               display: flex;
+               padding-left: 25px;
+
+
+
+      }
+ 
+    .seccionvideos5 div {
+
+                 
+                 border: 2px solid white;
+                  border-style: hidden;
+
+
+    }
+
+    .seccionvideos5 video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos5 div h4 {
+
+                  color: white;
+                  text-align: center;
+
+
+    }
+
+
+
+      .seccionvideos6 {
+
+
+               padding-top: 40px;
+               width: 75%;
+               display: flex;
+               padding-left: 25px;
+
+
+
+      }
+      
+
+ 
+    .seccionvideos6 div {
+
+                 
+                    border-style: dashed;
+                    border: 2px solid;
+
+
+    }
+
+    .seccionvideos6 video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+    .seccionvideos6 div h4 {
+
+                  color: white;
+                  text-align: center;
+
+
+    }
+
+
+
+
+
+      ._seccionvideos {
+
+   padding-bottom: 25px;
+   width: 75%;
+   display: flex;
+   padding-left: 50px;
+
+
+
+ }
+
+   ._seccionvideos div {
+
+                border-style: dashed;
+                border: 2px solid;
+
+
+    }
+
+
+
+ ._seccionvideos video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+     ._seccionvideos  div h4 {
+
+                  color: white;
+                  text-align: center;
+                  font-family: 'Urbanist', sans-serif;
+
+
+    }
+
+
+    ._seccionvideos p {
+
+
+            text-align: justify;
+            font-family: 'Urbanist', sans-serif;
+            padding-left: 5px;
+            padding-right: 10px;
+
+
+      }
+
+
+
+
+
+      .__seccionvideos {
+
+        padding-bottom: 25px;
+        width: 75%;
+        display: flex;
+        padding-left: 50px;
+   
+ }
+
+   .__seccionvideos div {
+
+                padding: 0px;
+                margin: 0px;
+                border-style: dashed;
+                border: 2px solid;
+
+
+
+    }
+
+
+
+ .__seccionvideos video{
+
+                  width: 300px;
+                  height: 425px;
+
+      }
+
+     .__seccionvideos  div h4 {
+
+                  color: white;
+                  text-align: center;
+                  font-family: 'Urbanist', sans-serif;
+
+
+    }
+
+
+    .__seccionvideos p {
+
+
+            text-align: justify;
+            font-family: 'Urbanist', sans-serif;
+            padding-left: 5px;
+            padding-right: 10px;
+
+
+      }
